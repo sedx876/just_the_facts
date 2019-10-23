@@ -1,8 +1,7 @@
 class USFacts
     @@all = []
 
-    def initialize(description)
-        @description = description
+    def initialize
         @@all << self
     end
 
