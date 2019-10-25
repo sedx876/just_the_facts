@@ -1,4 +1,4 @@
-class BizarreDeaths
+class JustTheFacts::BizarreDeaths
     @@all = []
 
     def initialize

@@ -1,4 +1,4 @@
-class HistoryFacts
+class JustTheFacts::HistoryFacts
     @@all = []
 
     def initialize

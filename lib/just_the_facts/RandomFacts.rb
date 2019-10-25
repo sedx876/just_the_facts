@@ -1,4 +1,4 @@
-class RandomFacts
+class JustTheFacts::RandomFacts
     @@all = []
 
     def initialize
@@ -9,8 +9,6 @@ class RandomFacts
         @@all
     end
 
-    def self.reset_all
-        @@all.clear
-      end
+    
 
 end

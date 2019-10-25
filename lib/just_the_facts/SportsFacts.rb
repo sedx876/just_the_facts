@@ -1,4 +1,4 @@
-class SportsFacts
+class JustTheFacts::SportsFacts
     @@all = []
 
     def initialize

@@ -1,4 +1,4 @@
-class BodyFacts
+class JustTheFacts::BodyFacts
     @@all = []
 
     def initialize

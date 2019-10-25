@@ -1,4 +1,4 @@
-class FoodFacts
+class JustTheFacts::FoodFacts
 @@all = []
 
     def initialize
