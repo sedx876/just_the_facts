@@ -1,4 +1,4 @@
-class JustTheFacts::CLI < JustTheFacts::Scraper
+class JustTheFacts::CLI #< JustTheFacts::Scraper
   attr_accessor :fact
   FACTS = [
       "Random Facts",
