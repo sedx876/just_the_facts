@@ -13,4 +13,4 @@ require "just_the_facts"
 #require "irb"
 #IRB.start(__FILE__)
 
-CLI.new.call 
+JustTheFacts::CLI.new.call 
