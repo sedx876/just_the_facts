@@ -1,4 +1,4 @@
-require "just_the_facts/version"
+#require "just_the_facts/version"
 
 module JustTheFacts
   class Error < StandardError; end
