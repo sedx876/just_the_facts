@@ -17,16 +17,15 @@ class JustTheFacts::CLI
 ]
 
 def call
-  puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~".blue
+  puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~".cyan
   puts "~~Welcome to Just the Facts!!~~".blue
-  puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~".blue
+  puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~".cyan
   start
 end
 
 def start
-  puts "What Fact List would you like to see?".blue
-  puts "==============================================================".cyan
-  puts "Enter the corresponding menu number for the facts you would like to see.".blue
+  puts "What Fact List would you like to see? Enter the corresponding menu number.".blue
+  puts "==========================================================================".cyan
   MENU.each.with_index(1) do |fact, number|
   puts "#{number}. #{fact}".cyan
 end
