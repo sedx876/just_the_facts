@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "just_the_facts"
+
+JustTheFacts::CLI.new.call
