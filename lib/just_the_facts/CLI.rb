@@ -46,29 +46,53 @@ end
 def selection(user_input)
   case user_input
   when 0
-    JustTheFacts::Scraper.scrape_random
+    facts = JustTheFacts::Scraper.scrape_random
+    puts facts
+    MENU
   when 1
-    JustTheFacts::Scraper.scrape_sports
+    facts = JustTheFacts::Scraper.scrape_sports
+    puts  facts
+    MENU
   when 2
-    JustTheFacts::Scraper.scrape_science
+    facts = JustTheFacts::Scraper.scrape_science
+    puts facts
+    MENU
   when 3
-    JustTheFacts::Scraper.scrape_body
+    facts = JustTheFacts::Scraper.scrape_body
+    puts facts
+    MENU
   when 4
-    JustTheFacts::Scraper.scrape_animal
+    facts = JustTheFacts::Scraper.scrape_animal
+    puts facts
+    MENU
   when 5
-    JustTheFacts::Scraper.scrape_history
+    facts = JustTheFacts::Scraper.scrape_history
+    puts facts
+    MENU
   when 6
-    JustTheFacts::Scraper.scrape_tech
+    facts = JustTheFacts::Scraper.scrape_tech
+    puts facts
+    MENU
   when 7
-    JustTheFacts::Scraper.scrape_english
+    facts = JustTheFacts::Scraper.scrape_english
+    puts facts
+    MENU
   when 8
-    JustTheFacts::Scraper.scrape_food
+    facts = JustTheFacts::Scraper.scrape_food
+    puts facts
+    MENU
   when 9
-    JustTheFacts::Scraper.scrape_us_facts
+    facts = JustTheFacts::Scraper.scrape_us_facts
+    puts facts
+    MENU
   when 10
-    JustTheFacts::Scraper.scrape_bonus
+    facts = JustTheFacts::Scraper.scrape_bonus
+    puts facts
+    MENU
   when 11
-    JustTheFacts::Scraper.scrape_deaths
+    facts = JustTheFacts::Scraper.scrape_deaths
+    puts facts
+    MENU
   when 12
     puts "GoodBye".red
   else
